@@ -605,6 +605,8 @@ footer {
 
 a.nav-link.active{
     color: #090992!important;
+    font-weight: bold;
 }
     
     
+
