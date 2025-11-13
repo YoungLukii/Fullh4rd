@@ -284,7 +284,9 @@ input.formcontrol2 {
 }
 
 .card .btn {
-  margin-top: auto;
+  align-self: center; 
+  margin-top: auto;    
+  width: auto; 
 }
 
 /*Cards de index*/
@@ -313,6 +315,10 @@ height: auto;
 
 .card-body {
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
 }
 
 .btn {
