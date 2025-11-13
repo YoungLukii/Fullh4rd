@@ -229,18 +229,8 @@ img.img-fluid {
      border: 1px solid rgba(0,0,0,0.12); 
      border-radius: 8px; 
 }
-.custom-card img {
-   width: 100%;
-    height: auto;
-    max-height: 350px;
-    aspect-ratio: 1 / 1;
-    object-fit: contain;
-    object-position: center;
-    display: block;
-    flex-shrink: 0;
-    padding: 6px;
-    background-color: #ffffff;
-}
+
+
 
 
 
@@ -274,7 +264,7 @@ input.formcontrol2 {
 }
 
 /* Imagen de la card */
-.catalogo.card img {
+.card img {
     width: 100%;
     height: auto;
     max-height: 300px;
