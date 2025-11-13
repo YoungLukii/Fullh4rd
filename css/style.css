@@ -248,7 +248,7 @@ input.formcontrol2 {
 
 }
 
-.catalogo.card {
+.card {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -257,7 +257,7 @@ input.formcontrol2 {
     will-change: transform;
 }
 
-.card:hover {
+.catalogo.card:hover {
     transform: scale(1.05);
     box-shadow: 0 12px 24px rgba(15, 4, 167, 0.733) !important;
     z-index: 10;
@@ -309,12 +309,6 @@ height: auto;
 }
 
 
-
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 12px 24px rgba(15, 4, 167, 0.733) !important;
-    z-index: 10;
-}
 /*cards index*/
 
 
