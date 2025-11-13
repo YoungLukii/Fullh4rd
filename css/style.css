@@ -593,3 +593,18 @@ footer {
     display: block;
 
 }
+
+.negrita {
+    font-weight: bold;
+
+}
+
+.active{
+    font-weight: bold;
+}
+
+a.nav-link.active{
+    color: #090992!important;
+}
+    
+    
