@@ -230,9 +230,16 @@ img.img-fluid {
      border-radius: 8px; 
 }
 .custom-card img {
-  height: 450px;
-  object-fit: cover;
-  width: 650px;
+   width: 100%;
+    height: auto;
+    max-height: 350px;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    flex-shrink: 0;
+    padding: 6px;
+    background-color: #ffffff;
 }
 
 
