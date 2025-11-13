@@ -276,6 +276,17 @@ input.formcontrol2 {
     padding: 6px;
 }
 
+.card .p-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.card .btn {
+  margin-top: auto;
+}
+
 /*Cards de index*/
 div.card-body {
     text-align: center;
