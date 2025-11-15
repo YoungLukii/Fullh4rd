@@ -630,6 +630,6 @@ a.nav-link.active{
 
 .sucursal-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 12px 24px rgba(15, 4, 167, 0.4);
+
 }
 
