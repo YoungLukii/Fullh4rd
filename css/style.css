@@ -5,13 +5,20 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:rgba(221, 227, 231, 0.678)
+    background-color:rgba(221, 227, 231, 0.678);
+    font-family: "Vend Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    
+    
 }
 
 #header-principal {
     background-color: #252525;
     padding: 10px 0;
     position: relative;
+    
 }
 
 .pcompra {
@@ -23,9 +30,6 @@ body {
     font-weight: bolder;
     display: block;
     background: linear-gradient(90deg, #b12ceea8, #104cf0, #e025d1, #3d10dfab, #0066ff);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
     color: transparent;
     background-color: #0066ff;
     text-align: center;
@@ -633,3 +637,13 @@ a.nav-link.active{
 
 }
 
+.btntop{
+width: 90px; 
+height: 90px
+
+}
+.btn2top{
+width: 60px; 
+height: 60px
+
+}
